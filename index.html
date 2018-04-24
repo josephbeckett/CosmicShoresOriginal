@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet"> 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import  stylesheet.css-->
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"  media="screen,projection"/>
+    <!-- Import w3Schools Animations --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+
+
+  </head>
+
+  <body class="main">
+    <div class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <video autoplay loop id="bgvid">
+            <source src="video/fundo.webm" type="video/webm">
+            <source src="images/CosmicShores.mp4" type="video/mp4">
+    </video>
+
+
+    <nav class="transparentBG z-depth-0">
+        <div class="nav-wrapper">
+            <img src="images/CosmicShoresLogo.png" alt="">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="modal1" class="waves-effect waves-light btn modal-trigger">Login</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="modal1" class="waves-effect waves-light btn modal-trigger">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="callout">
+        <div class="centre-align">
+            <h1 class="font">Cosmic Shores</h1>
+            <div class="font">
+                <h4 class="font">Amateur Astronomy Society</h4>
+                <br>
+                <a class="waves-effect waves-light btn" href="signup.html" target="_blank">Join Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/stylesheet.js"></script>
+  </body>
+</html>

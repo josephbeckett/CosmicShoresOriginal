@@ -1,0 +1,90 @@
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/signupBackground.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.transparentBG {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+  }
+
+  .nav-wrapper {
+    font-family: 'Chau Philomene One', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+ .normalNav{
+    font-family: 'Chau Philomene One', sans-serif;
+    background-color: #2B448C;
+    height: 60px;
+    line-height: 60px;
+ }
+
+ nav {
+    height: 60px;
+    line-height: 60px;
+}
+ 
+ .parallax-container {
+    height: 600px;
+  }
+
+  .section {
+    font-family: 'Chau Philomene One', sans-serif;
+  }
+ 
+
+  .preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.callout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  padding-top: 100px;
+}
+
+
+.font {
+  font-family: 'Chau Philomene One', sans-serif;
+}
